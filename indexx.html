@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>MazeRunner — 3D Box World</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="overlay">
+    <h1>MazeRunner — 3D Box World</h1>
+    <p>Click the screen to lock pointer and look around.<br/>
+       Move: <b>W A S D</b> • Jump: <b>Space</b> • Sprint: double-tap <b>W</b></p>
+    <button id="startBtn">Click to start / Lock Pointer</button>
+    <p id="status">Blocks: 1000 · Use mouse to look</p>
+    <p id="tips">If you see low FPS, close other tabs.</p>
+  </div>
+  <!-- renderer will append canvas automatically -->
+  <script src="https://unpkg.com/three@0.154.0/build/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
